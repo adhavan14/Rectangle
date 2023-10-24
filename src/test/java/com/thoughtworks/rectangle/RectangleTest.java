@@ -11,7 +11,7 @@ public class RectangleTest {
     @Test
     public void shouldReturnAreaOf0WhenLengthOrBreadthIs0() {
         Rectangle rectangle = new Rectangle(0,5);
-        int area = rectangle.area();
+        double area = rectangle.area();
         assertThat(area, is(equalTo(0)));
     }
 
@@ -19,7 +19,7 @@ public class RectangleTest {
     public void shouldReturnAreaOf10WhenLengthIs2AndBreadthIs5() {
 
         Rectangle rectangle = new Rectangle(2,5);
-        int area = rectangle.area();
+        double area = rectangle.area();
         assertThat(area, is(equalTo(10)));
     }
 }
