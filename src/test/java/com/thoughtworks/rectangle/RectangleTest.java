@@ -7,14 +7,14 @@ import org.junit.jupiter.api.Test;
 public class RectangleTest {
 
     @Test
-    public void testAreaOfTheRectangleIsZero() {
+    public void shouldAreaOfTheRectangleIsZeroWhenAnyValueIsZero() {
         Rectangle rectangle = new Rectangle(0,5);
         int result = rectangle.area();
         assertEquals(0, result);
     }
 
     @Test
-    public void testAreaOfTheRectangleIsTen() {
+    public void shouldAreaOfTheRectangleIsTenWhenLengthIsTwoAndBreadthIsFive() {
         Rectangle rectangle = new Rectangle(2,5);
         int result = rectangle.area();
         assertEquals(10, result);
