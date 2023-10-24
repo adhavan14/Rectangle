@@ -1,7 +1,7 @@
 <?xml version="1.0" encoding="UTF-8"?>
-<testsuite name="com.thoughtworks.rectangle.RectangleTest" tests="2" skipped="0" failures="0" errors="0" timestamp="2023-10-24T13:20:59" hostname="gurushifu-gurushifugitp-mel2jy9st9g" time="0.026">
+<testsuite name="com.thoughtworks.rectangle.RectangleTest" tests="2" skipped="0" failures="0" errors="0" timestamp="2023-10-24T13:43:15" hostname="gurushifu-gurushifugitp-mel2jy9st9g" time="0.021">
   <properties/>
-  <testcase name="shouldReturnAreaOf10WhenLengthIs2AndBreadthIs5()" classname="com.thoughtworks.rectangle.RectangleTest" time="0.019"/>
+  <testcase name="shouldReturnAreaOf10WhenLengthIs2AndBreadthIs5()" classname="com.thoughtworks.rectangle.RectangleTest" time="0.017"/>
   <testcase name="shouldReturnAreaOf0WhenLengthAndBreadthIs0()" classname="com.thoughtworks.rectangle.RectangleTest" time="0.002"/>
   <system-out><![CDATA[]]></system-out>
   <system-err><![CDATA[]]></system-err>

@@ -9,15 +9,18 @@ public class RectangleTest {
 
     @Test
     public void shouldReturnAreaOf0WhenLengthAndBreadthIs0() {
+        Integer ACTUAL = 0;
         Rectangle rectangle = new Rectangle(0,5);
-        int result = rectangle.area();
-        assertThat(0, equalTo(result));
+        Integer EXPECTED = rectangle.area();
+        assertThat(ACTUAL, equalTo(EXPECTED));
     }
 
     @Test
     public void shouldReturnAreaOf10WhenLengthIs2AndBreadthIs5() {
+
+        Integer ACTUAL = 10;
         Rectangle rectangle = new Rectangle(2,5);
-        int result = rectangle.area();
-        assertThat(10, equalTo(result));
+        Integer EXPECTED = rectangle.area();
+        assertThat(ACTUAL, equalTo(EXPECTED));
     }
 }
