@@ -2,8 +2,8 @@ package com.thoughtworks.rectangle;
 
 public class Rectangle {
     
-    int length;
-    int breadth;
+    private int length;
+    private int breadth;
 
     public Rectangle(int length, int breadth) {
         this.length = length;
