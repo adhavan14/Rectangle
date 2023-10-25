@@ -22,4 +22,12 @@ public class RectangleTest {
         double area = rectangle.area();
         assertThat(area, is(closeTo(10.0, 0.01)));
     }
+
+    @Test
+    public void shouldReturnPerimeterOf14WhenLengthIs2AndBreadthIs5() {
+
+        Rectangle rectangle = new Rectangle(2, 5);
+        double perimeter = rectangle.perimeter();
+        assertThat(perimeter, is(closeTo(14.0, 0.01)));
+    }
 }
